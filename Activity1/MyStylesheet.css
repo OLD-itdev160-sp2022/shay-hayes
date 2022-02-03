@@ -1,0 +1,88 @@
+/*Body layout/design*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    background-color: #ffe4ce;
+   
+}
+img {
+    float: left;
+}
+
+/*Properties for my hyperlinks*/
+a {font-weight: bold;}
+a:link {color: #ce5fc8;}
+a:visited {color: #a0e792;}
+a:hover, a:focus {color: #7ec6cc;}
+
+ul { line-height: 1.5; }
+li, p { font-size: 95%; 
+list-style: none;}
+em { font-weight: bold; }
+p {padding: .35em}
+
+/*Header layout/design*/
+header h1{
+    font-size: 500%;
+    color: #ce5fc8; 
+    text-shadow: 2px 2px 2px grey;
+    text-align: center;
+    padding: 1em
+}
+
+/*Main layout/design*/
+main{ clear:left}
+main h2{
+    font-size: 200%;
+    color: #f5926e;
+    text-align: center;
+}
+main p{
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+}
+
+/*Section Layout/design*/
+section h3{
+    font-size: 165%;
+    font-style: italic;
+    color: #ec5689;
+    text-align: center;
+    
+}
+section p{
+    font-size: 130%;
+}
+
+/*Article layout/design*/
+article h3.indent{ text-indent: 2em;}
+/*article p.indent{ text-indent: 1em;}*/
+article h3 {
+    font-size: 165%;
+    color:#7c75da;
+    text-align: center;
+}
+article h2{
+    font-size: 250%;
+    color: #7ec6cc;
+    text-shadow: 2px 2px 2px grey;
+    text-align: center;
+}
+article p{
+    font-size: 150%;
+    text-align: center;
+    }
+article nav{
+    font-size: 170%;
+    text-align: center;
+}
+
+/*Footer layout/design*/
+footer p{
+    font-size: 80%;
+    text-align: left;
+}
+footer img{
+    float: right;
+}
